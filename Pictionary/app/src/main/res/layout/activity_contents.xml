@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contents">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#090909">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/actionb"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/actionfinalre" />
+
+            <ImageButton
+                android:id="@+id/animalb"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/animalfinalre" />
+
+            <ImageButton
+                android:id="@+id/brandb"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/brandfinalre" />
+
+            <ImageButton
+                android:id="@+id/foodb"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/foodefinalre" />
+
+            <ImageButton
+                android:id="@+id/humanb"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/humanfinalre" />
+
+            <ImageButton
+                android:id="@+id/movieb"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/moviefinalre" />
+
+            <ImageButton
+                android:id="@+id/placeb"
+                android:layout_width="213dp"
+                android:layout_height="118dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/placefinalre" />
+
+            <ImageButton
+                android:id="@+id/thingb"
+                android:layout_width="214dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/thingfinalre" />
+
+            <ImageButton
+                android:id="@+id/tvb"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tvfinalre" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
